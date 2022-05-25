@@ -3,8 +3,6 @@ Hej...
 Instalation af Olie Jobbet:
 
 Smid resourcen ind i din resources mappe.
-Det er MEGET vigtigt du ikke skifter navnet på resourcen hvis du gør dette 
-virker den ikke på grund af fivems kryptering. 
 
 Derefter tilføjer du det nederstående linjer i din qb-core/shared.lua eller qb-core/items.lua
 
@@ -35,6 +33,8 @@ Når du har gjort det skal du gå ind i power-olieaktivitet/billeder og kopirer 
 også smide dem ind i dit inventory. Dettte er forskelligt efter hvilket inventory du bruger
 men hvis du bruge lj-inventory eller qb-inventory er det inde i html/images mappen.
 
-Så er du done. Håber du kan lide min resource hvis du kan lide den må du meget gerne smide en +rep inde på min discord :)
+Ting du skal bruge:
+en fuld qb server burde have disse ting
 
-(OBS hvis du vil have tilføjet custom pumper så skriv i support på min discord så finder vi ud af det)
+QB-Target: https://github.com/qbcore-framework/qb-target
+QB-Menu: https://github.com/qbcore-framework/qb-menu
