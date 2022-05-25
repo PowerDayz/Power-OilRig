@@ -1,5 +1,8 @@
 Hej...
 
+Preview:
+https://www.youtube.com/watch?v=qYpbFiPwgDA
+
 Instalation af Olie Jobbet:
 
 Smid resourcen ind i din resources mappe.
