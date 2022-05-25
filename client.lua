@@ -2132,19 +2132,6 @@ if Config.CirkelBlip == true then
     SetBlipRotation(RadiusBlip2, 0)
     SetBlipColour(RadiusBlip2, 148)
 
-    -- RadiusBlip3 = AddBlipForRadius(1497.15, -2275.22, 70.85, 260.0)
-    -- SetBlipRotation(RadiusBlip3, 0)
-    -- SetBlipColour(RadiusBlip3, 148)
-
-    -- LabelBlip3 = AddBlipForCoord(1497.15, -2275.22, 70.85)
-    -- SetBlipSprite (LabelBlip3, 618)
-    -- SetBlipDisplay(LabelBlip3, 4)
-    -- SetBlipScale  (LabelBlip3, 0.7)
-    -- SetBlipColour(LabelBlip3, 5)
-    -- SetBlipAsShortRange(LabelBlip3, true)
-    -- BeginTextCommandSetBlipName('STRING')
-    -- AddTextComponentSubstringPlayerName('Olie Pumper')
-    -- EndTextCommandSetBlipName(LabelBlip3)
 
     LabelBlip2 = AddBlipForCoord(1663.23, -1635.37, 112.27)
     SetBlipSprite (LabelBlip2, 618)
