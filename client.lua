@@ -36,7 +36,7 @@ RegisterNetEvent('power-oilrig:pumpRig1', function()
     if Rig1Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig1Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig1Oil = Rig1Oil + 1
         Rig1Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -75,7 +75,7 @@ RegisterNetEvent('power-oilrig:pumpRig2', function()
     if Rig2Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig2Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig2Oil = Rig2Oil + 1
         Rig2Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -114,7 +114,7 @@ RegisterNetEvent('power-oilrig:pumpRig3', function()
     if Rig3Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig3Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig3Oil = Rig3Oil + 1
         Rig3Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -153,7 +153,7 @@ RegisterNetEvent('power-oilrig:pumpRig4', function()
     if Rig4Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig4Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig4Oil = Rig4Oil + 1
         Rig4Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -192,7 +192,7 @@ RegisterNetEvent('power-oilrig:pumpRig5', function()
     if Rig5Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig5Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig5Oil = Rig5Oil + 1
         Rig5Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -231,7 +231,7 @@ RegisterNetEvent('power-oilrig:pumpRig6', function()
     if Rig6Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig6Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig6Oil = Rig6Oil + 1
         Rig6Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -270,7 +270,7 @@ RegisterNetEvent('power-oilrig:pumpRig7', function()
     if Rig7Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig7Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig7Oil = Rig7Oil + 1
         Rig7Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -309,7 +309,7 @@ RegisterNetEvent('power-oilrig:pumpRig8', function()
     if Rig8Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig8Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig8Oil = Rig8Oil + 1
         Rig8Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -348,7 +348,7 @@ RegisterNetEvent('power-oilrig:pumpRig9', function()
     if Rig9Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig9Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig9Oil = Rig9Oil + 1
         Rig9Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -387,7 +387,7 @@ RegisterNetEvent('power-oilrig:pumpRig10', function()
     if Rig10Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig10Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig10Oil = Rig10Oil + 1
         Rig10Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -426,7 +426,7 @@ RegisterNetEvent('power-oilrig:pumpRig11', function()
     if Rig11Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig11Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig11Oil = Rig11Oil + 1
         Rig11Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -465,7 +465,7 @@ RegisterNetEvent('power-oilrig:pumpRig12', function()
     if Rig12Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig12Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig12Oil = Rig12Oil + 1
         Rig12Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -504,7 +504,7 @@ RegisterNetEvent('power-oilrig:pumpRig13', function()
     if Rig13Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig13Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig13Oil = Rig13Oil + 1
         Rig13Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -543,7 +543,7 @@ RegisterNetEvent('power-oilrig:pumpRig14', function()
     if Rig14Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig14Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig14Oil = Rig14Oil + 1
         Rig14Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -582,7 +582,7 @@ RegisterNetEvent('power-oilrig:pumpRig15', function()
     if Rig15Mining == false then
         QBCore.Functions.Notify('Startede opumpningen af olie', 'success', 5500)
         Rig15Mining = true
-        Wait(6000) -- 600000 = 10 min 60000 = 1 min
+        Wait(600000) -- 600000 = 10 min 60000 = 1 min
         Rig15Oil = Rig15Oil + 1
         Rig15Mining = false
         QBCore.Functions.Notify('Din oliepumpe er stoppet. Den har pumpet 20L op', 'primary', 7500)
@@ -1989,7 +1989,7 @@ local CoordsTilBlip = {
     {1792.06, -1347.6, 100.7},
     {1834.25, -1193.07, 93.56},
     {1882.04, -1022.37, 80.25},
-    {1714.07, -1675.43, 113.49}
+    {1714.07, -1675.43, 113.49"}
 }
 
 if Config.EnkeltBlip then
