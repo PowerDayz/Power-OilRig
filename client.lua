@@ -1974,164 +1974,42 @@ exports['qb-target']:AddBoxZone("OilRig15", vector3(1714.07, -1675.43, 113.49), 
 
 ------------------------Blip Config Ting----------------------------
 
+local CoordsTilBlip = {
+    {1662.42, -1520.6, 113.31},
+    {1690.97, -1433.21, 113.1},
+    {1681.53, -1450.83, 113.23},
+    {1671.46, -1856.23, 109.17},
+    {1669.69, -1838.85, 109.58},
+    {1561.69, -1855.11, 93.44},
+    {1565.5, -1591.29, 92.61},
+    {1575.72, -1768.48, 88.81},
+    {1504.05, -1724.46, 79.56},
+    {1487.04, -1596.6, 73.86},
+    {1472.59, -1611.41, 72.89},
+    {1792.06, -1347.6, 100.7},
+    {1834.25, -1193.07, 93.56},
+    {1882.04, -1022.37, 80.25},
+    {1714.07, -1675.43, 113.49}
+}
 
 if Config.EnkeltBlip then
-    LabelBlip4 = AddBlipForCoord(1662.42, -1520.6, 113.31)
-    SetBlipSprite (LabelBlip4, 618)
-    SetBlipDisplay(LabelBlip4, 4)
-    SetBlipScale  (LabelBlip4, 0.5)
-    SetBlipColour(LabelBlip4, 5)
-    SetBlipAsShortRange(LabelBlip4, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip4)
-
-    LabelBlip5 = AddBlipForCoord(1690.97, -1433.21, 113.1)
-    SetBlipSprite (LabelBlip5, 618)
-    SetBlipDisplay(LabelBlip5, 4)
-    SetBlipScale  (LabelBlip5, 0.5)
-    SetBlipColour(LabelBlip5, 5)
-    SetBlipAsShortRange(LabelBlip5, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip5)
-
-    LabelBlip6 = AddBlipForCoord(1681.53, -1450.83, 113.23)
-    SetBlipSprite (LabelBlip6, 618)
-    SetBlipDisplay(LabelBlip6, 4)
-    SetBlipScale  (LabelBlip6, 0.5)
-    SetBlipColour(LabelBlip6, 5)
-    SetBlipAsShortRange(LabelBlip6, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip6)
-
-    LabelBlip7 = AddBlipForCoord(1671.46, -1856.23, 109.17)
-    SetBlipSprite (LabelBlip7, 618)
-    SetBlipDisplay(LabelBlip7, 4)
-    SetBlipScale  (LabelBlip7, 0.5)
-    SetBlipColour(LabelBlip7, 5)
-    SetBlipAsShortRange(LabelBlip7, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip7)
-
-    LabelBlip8 = AddBlipForCoord(1669.69, -1838.85, 109.58)
-    SetBlipSprite (LabelBlip8, 618)
-    SetBlipDisplay(LabelBlip8, 4)
-    SetBlipScale  (LabelBlip8, 0.5)
-    SetBlipColour(LabelBlip8, 5)
-    SetBlipAsShortRange(LabelBlip8, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip8)
-
-    LabelBlip9 = AddBlipForCoord(1561.69, -1855.11, 93.44)
-    SetBlipSprite (LabelBlip9, 618)
-    SetBlipDisplay(LabelBlip9, 4)
-    SetBlipScale  (LabelBlip9, 0.5)
-    SetBlipColour(LabelBlip9, 5)
-    SetBlipAsShortRange(LabelBlip9, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip9)
-
-    LabelBlip10 = AddBlipForCoord(1565.5, -1591.29, 92.61)
-    SetBlipSprite (LabelBlip10, 618)
-    SetBlipDisplay(LabelBlip10, 4)
-    SetBlipScale  (LabelBlip10, 0.5)
-    SetBlipColour(LabelBlip10, 5)
-    SetBlipAsShortRange(LabelBlip10, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip10)
-
-    LabelBlip11 = AddBlipForCoord(1575.72, -1768.48, 88.81)
-    SetBlipSprite (LabelBlip11, 618)
-    SetBlipDisplay(LabelBlip11, 4)
-    SetBlipScale  (LabelBlip11, 0.5)
-    SetBlipColour(LabelBlip11, 5)
-    SetBlipAsShortRange(LabelBlip11, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip11)
-
-    LabelBlip12 = AddBlipForCoord(1504.05, -1724.46, 79.56)
-    SetBlipSprite (LabelBlip12, 618)
-    SetBlipDisplay(LabelBlip12, 4)
-    SetBlipScale  (LabelBlip12, 0.5)
-    SetBlipColour(LabelBlip12, 5)
-    SetBlipAsShortRange(LabelBlip12, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip12)
-
-    LabelBlip13 = AddBlipForCoord(1487.04, -1596.6, 73.86)
-    SetBlipSprite (LabelBlip13, 618)
-    SetBlipDisplay(LabelBlip13, 4)
-    SetBlipScale  (LabelBlip13, 0.5)
-    SetBlipColour(LabelBlip13, 5)
-    SetBlipAsShortRange(LabelBlip13, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip13)
-
-    LabelBlip14 = AddBlipForCoord(1472.59, -1611.41, 72.89)
-    SetBlipSprite (LabelBlip14, 618)
-    SetBlipDisplay(LabelBlip14, 4)
-    SetBlipScale  (LabelBlip14, 0.5)
-    SetBlipColour(LabelBlip14, 5)
-    SetBlipAsShortRange(LabelBlip14, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip14)
-    
-    LabelBlip15 = AddBlipForCoord(1792.06, -1347.6, 100.7)
-    SetBlipSprite (LabelBlip15, 618)
-    SetBlipDisplay(LabelBlip15, 4)
-    SetBlipScale  (LabelBlip15, 0.5)
-    SetBlipColour(LabelBlip15, 5)
-    SetBlipAsShortRange(LabelBlip15, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip15)
-
-    LabelBlip16 = AddBlipForCoord(1834.25, -1193.07, 93.56)
-    SetBlipSprite (LabelBlip16, 618)
-    SetBlipDisplay(LabelBlip16, 4)
-    SetBlipScale  (LabelBlip16, 0.5)
-    SetBlipColour(LabelBlip16, 5)
-    SetBlipAsShortRange(LabelBlip16, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip16)
-
-    LabelBlip17 = AddBlipForCoord(1882.04, -1022.37, 80.25)
-    SetBlipSprite (LabelBlip17, 618)
-    SetBlipDisplay(LabelBlip17, 4)
-    SetBlipScale  (LabelBlip17, 0.5)
-    SetBlipColour(LabelBlip17, 5)
-    SetBlipAsShortRange(LabelBlip17, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip17)
-
-    LabelBlip18 = AddBlipForCoord(1714.07, -1675.43, 113.49)
-    SetBlipSprite (LabelBlip18, 618)
-    SetBlipDisplay(LabelBlip18, 4)
-    SetBlipScale  (LabelBlip18, 0.5)
-    SetBlipColour(LabelBlip18, 5)
-    SetBlipAsShortRange(LabelBlip18, true)
-    BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName('Olie Pumpe')
-    EndTextCommandSetBlipName(LabelBlip18)
+    for a = 1, #CoordsTilBlip do
+        PumpeBlip = AddBlipForCoord(CoordsTilBlip[a][1], CoordsTilBlip[a][2], CoordsTilBlip[a][3])
+        SetBlipSprite (PumpeBlip, 618)
+        SetBlipDisplay(PumpeBlip, 4)
+        SetBlipScale  (PumpeBlip, 0.5)
+        SetBlipColour(PumpeBlip, 5)
+        SetBlipAsShortRange(PumpeBlip, true)
+        BeginTextCommandSetBlipName('STRING')
+        AddTextComponentSubstringPlayerName('Olie Pumpe')
+        EndTextCommandSetBlipName(PumpeBlip)
+    end
 end
 
 if Config.CirkelBlip == true then
     RadiusBlip2 = AddBlipForRadius(1663.23, -1635.37, 112.27, 260.0)
     SetBlipRotation(RadiusBlip2, 0)
     SetBlipColour(RadiusBlip2, 148)
-
 
     LabelBlip2 = AddBlipForCoord(1663.23, -1635.37, 112.27)
     SetBlipSprite (LabelBlip2, 618)
